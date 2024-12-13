@@ -1,0 +1,47 @@
+[debug] [2024-12-13T14:42:46.962Z] ----------------------------------------------------------------------
+[debug] [2024-12-13T14:42:46.965Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-12-13T14:42:46.966Z] CLI Version:   13.29.0
+[debug] [2024-12-13T14:42:46.966Z] Platform:      win32
+[debug] [2024-12-13T14:42:46.966Z] Node Version:  v22.12.0
+[debug] [2024-12-13T14:42:46.966Z] Time:          Fri Dec 13 2024 06:42:46 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-13T14:42:46.967Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-13T14:42:47.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-13T14:42:47.033Z] > authorizing via signed-in user (abhikutti25@gmail.com)
+[debug] [2024-12-13T14:42:47.033Z] [iam] checking project cruise-ship-management-9d629 for permissions ["firebase.projects.get"]
+[debug] [2024-12-13T14:42:47.034Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:47.035Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:47.036Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629:testIamPermissions [none]
+[debug] [2024-12-13T14:42:47.036Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629:testIamPermissions x-goog-quota-user=projects/cruise-ship-management-9d629
+[debug] [2024-12-13T14:42:47.036Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-13T14:42:48.543Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629:testIamPermissions 200
+[debug] [2024-12-13T14:42:48.543Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-13T14:42:48.544Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:48.544Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:48.544Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629 [none]
+[debug] [2024-12-13T14:42:48.941Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629 200
+[debug] [2024-12-13T14:42:48.942Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/cruise-ship-management-9d629 {"projectNumber":"642403120476","projectId":"cruise-ship-management-9d629","lifecycleState":"ACTIVE","name":"cruise ship management","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2024-12-13T14:27:26.004938Z"}
+[info] 
+[info] === Serving from 'C:\Users\Hp\OneDrive\Projects\cruise'...
+[info] 
+[debug] [2024-12-13T14:42:48.945Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:48.945Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:48.945Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/cruise-ship-management-9d629/sites 
+[debug] [2024-12-13T14:42:49.870Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/cruise-ship-management-9d629/sites 200
+[debug] [2024-12-13T14:42:49.871Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/cruise-ship-management-9d629/sites {"sites":[{"name":"projects/cruise-ship-management-9d629/sites/cruise-ship-management-9d629","defaultUrl":"https://cruise-ship-management-9d629.web.app","appId":"1:642403120476:web:5747a27c010de4a3ac7d99","type":"DEFAULT_SITE"}]}
+[debug] [2024-12-13T14:42:49.871Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:49.871Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:49.871Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cruise-ship-management-9d629/webApps/1:642403120476:web:5747a27c010de4a3ac7d99/config [none]
+[debug] [2024-12-13T14:42:51.069Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cruise-ship-management-9d629/webApps/1:642403120476:web:5747a27c010de4a3ac7d99/config 200
+[debug] [2024-12-13T14:42:51.069Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cruise-ship-management-9d629/webApps/1:642403120476:web:5747a27c010de4a3ac7d99/config {"projectId":"cruise-ship-management-9d629","appId":"1:642403120476:web:5747a27c010de4a3ac7d99","storageBucket":"cruise-ship-management-9d629.firebasestorage.app","apiKey":"AIzaSyDK9U6qbkNmebwSAoonNN0hTw4XZNF8afs","authDomain":"cruise-ship-management-9d629.firebaseapp.com","messagingSenderId":"642403120476","measurementId":"G-1Q4G1Y3F08"}
+[debug] [2024-12-13T14:42:51.074Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:51.074Z] Checked if tokens are valid: true, expires at: 1734103851985
+[debug] [2024-12-13T14:42:51.074Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cruise-ship-management-9d629 [none]
+[debug] [2024-12-13T14:42:51.400Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cruise-ship-management-9d629 200
+[debug] [2024-12-13T14:42:51.400Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cruise-ship-management-9d629 {"projectId":"cruise-ship-management-9d629","projectNumber":"642403120476","displayName":"cruise ship management","name":"projects/cruise-ship-management-9d629","resources":{"hostingSite":"cruise-ship-management-9d629"},"state":"ACTIVE","etag":"1_a628c993-5507-47dd-976a-13c3965346cb"}
+[info] i  hosting[cruise-ship-management-9d629]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[cruise-ship-management-9d629]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [13/Dec/2024:14:43:07 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Dec/2024:14:43:07 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Dec/2024:14:43:07 +0000] "GET /styles.css HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Dec/2024:14:43:07 +0000] \"GET /styles.css HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Dec/2024:14:43:07 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Dec/2024:14:43:07 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Dec/2024:14:43:07 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Dec/2024:14:43:07 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\""}}

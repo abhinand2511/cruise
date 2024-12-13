@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Ship Management</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cruise Ship Management</h1>
+        <nav id="main-nav"></nav>
+    </header>
+
+    <main id="main-content"></main>
+
+    <div id="login-form">
+        <h2>Login</h2>
+        <form id="auth-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDK9U6qbkNmebwSAoonNN0hTw4XZNF8afs",
+          authDomain: "cruise-ship-management-9d629.firebaseapp.com",
+          projectId: "cruise-ship-management-9d629",
+          storageBucket: "cruise-ship-management-9d629.firebasestorage.app",
+          messagingSenderId: "642403120476",
+          appId: "1:642403120476:web:5747a27c010de4a3ac7d99",
+          measurementId: "G-1Q4G1Y3F08"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
+
